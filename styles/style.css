@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: 0 auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif, 'Arial';
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -44,14 +44,14 @@ ol {
   display: flex;
   align-items: end;
   gap: 30px;
-  width: 1140px;
+  inline-size: 1140px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  margin-block-end: 16px;
 }
 
 .result__video {
@@ -168,7 +168,7 @@ input[type='checkbox']:checked + ::after {
   min-height: 34px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif, 'Arial';
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
@@ -193,6 +193,7 @@ input[type='checkbox']:checked + ::after {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
+  margin: 2px;
 }
 
 /* кнопка найти */
@@ -208,10 +209,6 @@ input[type='checkbox']:checked + ::after {
   width: 399px;
 }
 
-.more-button:focus-visible {
-  margin: 2px;
-}
-
 .content__details {
   display: flex;
   flex-direction: column;
@@ -221,7 +218,7 @@ input[type='checkbox']:checked + ::after {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif, 'Arial';
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
@@ -249,9 +246,9 @@ input[type='checkbox']:checked + ::after {
 
 .content__card-link {
   display: block;
+  width: 100%;
   color: #fff;
   text-decoration: none;
-  width: 100%;
 }
 
 .content__card-link:hover {
@@ -289,7 +286,7 @@ input[type='checkbox']:checked + ::after {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: 'Oswald', sans-serif, 'Arial';
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
